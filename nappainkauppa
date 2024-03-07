@@ -1,0 +1,37 @@
+echo "# nappainverkkokauppa.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vesqq/nappainverkkokauppa.github.io.git
+git push -u origin main
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Näppäinhattukauppa</title>
+</head>
+<body>
+
+  <h1>Tervetuloa Näppäinhattukauppaan!</h1>
+
+  <!-- Ensimmäinen tuotekuva ja linkki -->
+  <div>
+    <a href="tuote1.html">
+      <img src="nappainhattu1.jpg" alt="Näppäinhattu 1">
+    </a>
+    <p>Näppäinhattu 1</p>
+  </div>
+
+  <!-- Toinen tuotekuva ja linkki -->
+  <div>
+    <a href="tuote2.html">
+      <img src="nappainhattu2.jpg" alt="Näppäinhattu 2">
+    </a>
+    <p>Näppäinhattu 2</p>
+  </div>
+
+</body>
+</html>
